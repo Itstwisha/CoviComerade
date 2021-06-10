@@ -1,0 +1,23 @@
+<%- include('partials/header'); -%>
+<nav class="navbar navbar-light navbar-expand-md nav-lap">
+    <div class="container-fluid"><a class="navbar-brand" href="#" style="background: url(&quot;assets/img/logo.svg&quot;) center / 80% no-repeat;width: 120px;margin: 0;padding: 0;height: 120px;border-radius: 0;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active head-link" href="/" style="color: #9f5f80;">Home</a></li>
+                <li class="nav-item"><a class="nav-link active head-link" href="/about" style="color: #9f5f80;">About</a></li>
+                <li class="nav-item"><a class="nav-link active head-link" href="/ourSupport" style="color: #9f5f80;">our Support</a></li>
+                <li class="nav-item"><a class="nav-link active" href="/contact" style="color: #9f5f80;">Contact us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section class="contact-clean" style="background: url(&quot;assets/img/bgcov.svg&quot;) center / cover no-repeat;">
+    <form class="contact-form" action="mailto:info@covpatron.org" method="post" enctype="text/plain">
+        <h2 class="text-center" style="color: #9f5f80;">Contact Us</h2>
+        <div class="mb-3"><input class="form-control" type="text" name="Name" placeholder="Name"></div>
+        <div class="mb-3"><input class="form-control" type="email" name="Email" placeholder="Email"></div>
+        <div class="mb-3"><textarea class="form-control" name="Message" placeholder="Message" rows="14"></textarea></div>
+        <div class="mb-3"><button class="btn btn-primary" id="submit-btn" type="submit">send </button></div>
+    </form>
+</section>
+<%- include('partials/footer'); -%>
