@@ -20,7 +20,7 @@ You will also see any lint errors in the console.
 ## EJS Templating 
 To know more: https://ejs.co/
 
-##Razorpay Integration
+## Razorpay Integration
 For quick razorpay integration go to https://razorpay.com/docs/payment-gateway/quick-integration/
 
 ## Node VS Nodemon 
